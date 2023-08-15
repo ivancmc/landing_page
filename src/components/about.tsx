@@ -13,7 +13,7 @@ export default function About() {
         justify={"flex-start"}
       >
         <Image
-          src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/df213ca0-multor-about_10cs0b400000000000001o.jpg"
+          src="/images/about.jpg"
           alt="About"
           w={["350px", "460px"]}
           h={["280px", "400px"]}

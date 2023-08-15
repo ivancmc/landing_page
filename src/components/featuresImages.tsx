@@ -50,17 +50,17 @@ export default function FeaturesImages() {
         justify={"center"}
       >
         <FeatureImage
-          imageUrl="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/53ad3716-multor-feature1-image_108c04p00000000000001o.jpg"
+          imageUrl="/images/feature1.jpg"
           title="FEATURE 1"
           text="Talk about some of the details of your offer with a focus on the value people get back."
         />
         <FeatureImage
-          imageUrl="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/adf66a57-multor-feature2-image_108c04p00000000000001o.jpg"
+          imageUrl="/images/feature2.jpg"
           title="FEATURE 2"
           text="Is there a pain point that your service resolves? Tell visitors about it here."
         />
         <FeatureImage
-          imageUrl="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/6d486c61-multor-feature3-image_108c04p00000000000001o.jpg"
+          imageUrl="/images/feature3.jpg"
           title="FEATURE 3"
           text="Alternatively, you could use this section to address some frequently asked questions."
         />

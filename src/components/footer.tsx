@@ -17,8 +17,10 @@ export default function Footer() {
         w={["auto", "auto", "940px"]}
       >
         <Image
-          src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/77034ff2-multor-logo-footer.svg"
+          src="/images/logo-white-no-background.png"
           alt="Logo"
+          w={"75px"}
+          h={"50px"}
         />
         <Text
           fontSize={"12px"}
@@ -26,7 +28,7 @@ export default function Footer() {
           color={"rgb(162, 172, 172)"}
           lineHeight={"20px"}
         >
-          © 2023 Insert Name Here. All rights reserved
+          © 2023 Insert Name Here. All rights reserved.
         </Text>
       </Stack>
     </Flex>

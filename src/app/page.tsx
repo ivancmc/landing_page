@@ -16,15 +16,13 @@ import {
   useBreakpointValue,
 } from "@chakra-ui/react";
 
-export default function WithBackgroundImage() {
+export default function Home() {
   return (
     <Center>
       <Flex w={"1200px"} direction={"column"}>
         <VStack
           h={["600px", "721px"]}
-          backgroundImage={
-            "url(https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/abbcf2d7-multor-heroshot_11hc0nw00000000000001o.jpg)"
-          }
+          backgroundImage={"/images/topo.jpg"}
           backgroundSize={"cover"}
           backgroundPosition={["top left", "top center"]}
           alignItems={"flex-start"}
@@ -37,8 +35,10 @@ export default function WithBackgroundImage() {
             minH={["550px"]}
           >
             <Image
-              src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/42234823-multor-logo.svg"
+              src="/images/logo-no-background.svg"
               alt="Logo"
+              w={"150px"}
+              h={"100px"}
             />
             <Text
               color={"rgb(21, 47, 46)"}
@@ -67,7 +67,7 @@ export default function WithBackgroundImage() {
           justifyContent={["flex-end", "flex-end", "space-around"]}
           direction={["column-reverse", "column-reverse", "row"]}
           minH={["1150px", "1100px", "auto"]}
-          mt={["-50px", "-100px"]}
+          mt={["-10px", "-50px"]}
         >
           <FeaturesIcons />
           <MainForm />
@@ -104,7 +104,7 @@ export default function WithBackgroundImage() {
             understand your service (or just to hype ‘em up).
           </Text>
           <Image
-            src="https://embed-ssl.wistia.com/deliveries/29da46dbc01985d85354fde8c733a9b2.jpg"
+            src="/images/video.jpg"
             alt="Video"
             width={["380px", "940px"]}
             height={["250px", "530px"]}

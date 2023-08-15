@@ -64,16 +64,16 @@ export default function Testimonials() {
       </Text>
       <Stack direction={["column", "column", "row"]} spacing={[20, 20, 40]}>
         <Testimonial
-          ratingUrl="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/dfb61e74-multor-testimonial1-stars.svg"
+          ratingUrl="/images/rating1.svg"
           text="Share a real testimonial that hits some of your benefits (but isn't too sales-y)."
-          avatarUrl="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/52bdc545-multor-testimonial1-headshot_101e01e00000000000001o.jpg"
+          avatarUrl="/images/avatar1.jpg"
           name="Real Name"
           location="Location"
         />
         <Testimonial
-          ratingUrl="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/6d441dac-multor-testimonial2-stars.svg"
+          ratingUrl="/images/rating2.svg"
           text="Include someone talking about how easy it was to sign up and participate."
-          avatarUrl="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/multor/94045dbc-multor-testimonial2-headshot_101e01e00000000000001o.jpg"
+          avatarUrl="/images/avatar2.jpg"
           name="Real Name"
           location="Location"
         />
