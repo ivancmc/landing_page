@@ -1,4 +1,4 @@
-import { mulish } from "@/app/layout";
+import { mulish } from "@/util/fonts";
 import { HStack, Image, Stack, Text, VStack } from "@chakra-ui/react";
 
 interface TestimonialProps {
@@ -60,7 +60,7 @@ export default function Testimonials() {
         maxW={["180px", "full"]}
         align={"center"}
       >
-        DON'T JUST TAKE OUR WORD FOR IT
+        DON&apos;T JUST TAKE OUR WORD FOR IT
       </Text>
       <Stack direction={["column", "column", "row"]} spacing={[20, 20, 40]}>
         <Testimonial

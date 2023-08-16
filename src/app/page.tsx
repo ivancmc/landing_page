@@ -57,8 +57,9 @@ export default function Home() {
               fontSize={useBreakpointValue({ base: "20px", md: "20px" })}
               maxW={"464px"}
             >
-              No need to get clever. Tell people exactly what you're offering,
-              then use this space to communicate your key value proposition.
+              No need to get clever. Tell people exactly what you&apos;re
+              offering, then use this space to communicate your key value
+              proposition.
             </Text>
           </Stack>
         </VStack>
@@ -90,7 +91,7 @@ export default function Home() {
             maxW={["280px", "580px"]}
             textAlign={"center"}
           >
-            Show visitors what they're signing up for
+            Show visitors what they&apos;re signing up for
           </Text>
           <Text
             color={"rgb(21, 47, 46)"}

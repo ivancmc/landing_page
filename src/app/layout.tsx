@@ -1,12 +1,6 @@
+import { workSans } from "@/util/fonts";
 import type { Metadata } from "next";
-import { Mulish, Work_Sans } from "next/font/google";
 import { Providers } from "./providers";
-
-export const workSans = Work_Sans({ subsets: ["latin"] });
-export const mulish = Mulish({
-  subsets: ["latin"],
-  style: ["italic", "normal"],
-});
 
 export const metadata: Metadata = {
   title: "Landing page",

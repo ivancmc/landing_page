@@ -1,6 +1,6 @@
 "use client";
 
-import { workSans } from "@/app/layout";
+import { workSans } from "@/util/fonts";
 import {
   Box,
   Button,

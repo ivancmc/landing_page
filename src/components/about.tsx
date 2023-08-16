@@ -1,4 +1,4 @@
-import { mulish } from "@/app/layout";
+import { mulish } from "@/util/fonts";
 import { Center, Image, Stack, Text, VStack } from "@chakra-ui/react";
 
 export default function About() {

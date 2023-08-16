@@ -1,4 +1,4 @@
-import { mulish } from "@/app/layout";
+import { mulish } from "@/util/fonts";
 import { Flex, Image, Stack, Text } from "@chakra-ui/react";
 
 export default function Footer() {
