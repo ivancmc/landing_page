@@ -26,17 +26,17 @@ export default function About() {
             fontWeight={600}
             align={"center"}
           >
-            ABOUT
+            SOBRE
           </Text>
           <Text
             fontSize="32px"
-            maxW={"285px"}
+            maxW={"295px"}
             lineHeight="1em"
             color="rgb(21, 47, 46)"
             font-style="normal"
             fontWeight={600}
           >
-            Some more information about your business
+            Mais algumas informações sobre o seu negócio
           </Text>
           <Text
             fontSize="15px"
@@ -45,11 +45,12 @@ export default function About() {
             font-style="normal"
             fontWeight={400}
             className={mulish.className}
-            maxW={"340px"}
+            maxW={"350px"}
           >
-            Share a little about yourself as a business owner, or maybe describe
-            what makes your service unique. Give visitors one more reason to
-            care about your offer and want to work with you.
+            Compartilhe um pouco sobre você como proprietário de uma empresa ou
+            talvez descreva o que torna seu serviço único. Dê aos visitantes
+            mais uma razão para se atentarem à sua oferta e quererem trabalhar
+            com você.
           </Text>
         </VStack>
       </Stack>

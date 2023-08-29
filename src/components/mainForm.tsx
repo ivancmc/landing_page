@@ -38,7 +38,7 @@ export default function MainForm() {
               className={workSans.className}
               fontWeight={600}
             >
-              Schedule an Appointment
+              Marque uma consultoria
             </Heading>
             <Text
               textAlign={"center"}
@@ -48,24 +48,14 @@ export default function MainForm() {
               fontWeight={400}
               className={workSans.className}
             >
-              Here, let visitors know what will happen when they complete your
-              form.
+              Aqui, informe aos visitantes o que acontecerá quando eles
+              preencherem seu formulário.
             </Text>
           </Stack>
           <Box as={"form"}>
             <Stack spacing={4}>
               <Input
-                placeholder="First name*"
-                size={"lg"}
-                bg={"white"}
-                border={0}
-                color={"#152F2E"}
-                _placeholder={{
-                  color: "gray.500",
-                }}
-              />
-              <Input
-                placeholder="Last name*"
+                placeholder="Nome Completo*"
                 size={"lg"}
                 bg={"white"}
                 border={0}
@@ -85,7 +75,7 @@ export default function MainForm() {
                 }}
               />
               <Input
-                placeholder="Phone Number*"
+                placeholder="Telefone*"
                 size={"lg"}
                 bg={"white"}
                 border={0}
@@ -95,14 +85,14 @@ export default function MainForm() {
                 }}
               />
               <Select
-                placeholder="Type of Appointment"
+                placeholder="Tipo de consultoria"
                 bgColor={"white"}
                 size={"lg"}
                 color={"#152F2E"}
               >
-                <option value="Type 1">Type 1</option>
-                <option value="Type 2">Type 2</option>
-                <option value="Type 3">Type 3</option>
+                <option value="Tipo 1">Tipo 1</option>
+                <option value="Tipo 2">Tipo 2</option>
+                <option value="Tipo 3">Tipo 3</option>
               </Select>
             </Stack>
             <Button
@@ -116,7 +106,7 @@ export default function MainForm() {
                 bgColor: "rgba(0,184,187,1)",
               }}
             >
-              SCHEDULE NOW
+              AGENDE AGORA
             </Button>
           </Box>
         </Stack>

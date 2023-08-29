@@ -48,7 +48,7 @@ export default function Home() {
               fontSize={["60px", "82px"]}
               maxW={"650px"}
             >
-              Describe the value of booking an appointment
+              Descreva o valor de marcar uma consultoria
             </Text>
             <Text
               color={"rgb(21, 47, 46)"}
@@ -57,9 +57,8 @@ export default function Home() {
               fontSize={useBreakpointValue({ base: "20px", md: "20px" })}
               maxW={"464px"}
             >
-              No need to get clever. Tell people exactly what you&apos;re
-              offering, then use this space to communicate your key value
-              proposition.
+              Diga às pessoas exatamente o que você está oferecendo e use este
+              espaço para comunicar sua principal proposta de valor.
             </Text>
           </Stack>
         </VStack>
@@ -91,7 +90,7 @@ export default function Home() {
             maxW={["280px", "580px"]}
             textAlign={"center"}
           >
-            Show visitors what they&apos;re signing up for
+            Mostre aos visitantes no que eles estão se inscrevendo
           </Text>
           <Text
             color={"rgb(21, 47, 46)"}
@@ -101,8 +100,8 @@ export default function Home() {
             maxW={["295px", "550px"]}
             textAlign={"center"}
           >
-            Include a video or photo from one of your sessions to help people
-            understand your service (or just to hype ‘em up).
+            Inclua um vídeo ou foto de uma de suas sessões para ajudar as
+            pessoas a entender seu serviço.
           </Text>
           <Image
             src="/images/video.jpg"
@@ -110,6 +109,7 @@ export default function Home() {
             width={["380px", "940px"]}
             height={["250px", "530px"]}
             pt={["10px", "50px"]}
+            cursor={"pointer"}
           />
         </VStack>
         <Testimonials />

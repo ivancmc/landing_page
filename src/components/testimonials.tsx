@@ -60,22 +60,22 @@ export default function Testimonials() {
         maxW={["180px", "full"]}
         align={"center"}
       >
-        DON&apos;T JUST TAKE OUR WORD FOR IT
+        NÃO FIQUE APENAS COM NOSSA PALAVRA
       </Text>
       <Stack direction={["column", "column", "row"]} spacing={[20, 20, 40]}>
         <Testimonial
           ratingUrl="/images/rating1.svg"
-          text="Share a real testimonial that hits some of your benefits (but isn't too sales-y)."
+          text="Compartilhe um depoimento real que atinja alguns de seus benefícios."
           avatarUrl="/images/avatar1.jpg"
-          name="Real Name"
-          location="Location"
+          name="Nome real"
+          location="Cidade"
         />
         <Testimonial
           ratingUrl="/images/rating2.svg"
-          text="Include someone talking about how easy it was to sign up and participate."
+          text="Inclua alguém falando sobre como foi fácil se inscrever e participar."
           avatarUrl="/images/avatar2.jpg"
-          name="Real Name"
-          location="Location"
+          name="Nome real"
+          location="Cidade"
         />
       </Stack>
     </VStack>

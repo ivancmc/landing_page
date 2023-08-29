@@ -45,23 +45,23 @@ export default function FeaturesIcons() {
       <VStack spacing={10}>
         <FeatureIcon
           icon={<Icon as={SlScreenDesktop} w={10} h={10} color={"#2FCDD0"} />}
-          title={"Benefit 1"}
+          title={"Benefício 1"}
           text={
-            "Highlight the benefits of signing up for an appointment, online class, or video consultation."
+            "Destaque os benefícios de se inscrever para uma consultoria, aula online ou consultoria por video."
           }
         />
         <FeatureIcon
           icon={<Icon as={GoHeart} w={10} h={10} color={"#2FCDD0"} />}
-          title={"Benefit 2"}
+          title={"Benefício 2"}
           text={
-            "For example, fitness instructors might describe how their routines make people healthier *and* happier."
+            "Por exemplo, instrutores de academia podem descrever como suas rotinas tornam as pessoas mais saudáveis e mais felizes."
           }
         />
         <FeatureIcon
           icon={<Icon as={SlBadge} w={10} h={10} color={"#2FCDD0"} />}
-          title={"Benefit 3"}
+          title={"Benefício 3"}
           text={
-            "Remind visitors how easy it is to claim your offer and start enjoying the benefits."
+            "Lembre aos visitantes como é fácil adquirir seus serviços e começar a aproveitar os benefícios."
           }
         />
       </VStack>

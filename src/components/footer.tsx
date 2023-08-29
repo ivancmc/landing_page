@@ -28,7 +28,7 @@ export default function Footer() {
           color={"rgb(162, 172, 172)"}
           lineHeight={"20px"}
         >
-          © 2023 Insert Name Here. All rights reserved.
+          © 2023 Insira o nome aqui. Todos os direitos reservados.
         </Text>
       </Stack>
     </Flex>

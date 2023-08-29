@@ -51,18 +51,18 @@ export default function FeaturesImages() {
       >
         <FeatureImage
           imageUrl="/images/feature1.jpg"
-          title="FEATURE 1"
-          text="Talk about some of the details of your offer with a focus on the value people get back."
+          title="Característica 1"
+          text="Fale sobre alguns detalhes de sua oferta com foco no valor que as pessoas recebem."
         />
         <FeatureImage
           imageUrl="/images/feature2.jpg"
-          title="FEATURE 2"
-          text="Is there a pain point that your service resolves? Tell visitors about it here."
+          title="Característica 2"
+          text="Existe um problema que seu serviço resolve? Conte aos visitantes sobre isso aqui."
         />
         <FeatureImage
           imageUrl="/images/feature3.jpg"
-          title="FEATURE 3"
-          text="Alternatively, you could use this section to address some frequently asked questions."
+          title="Característica 3"
+          text="Você pode usar esta seção para responder a algumas perguntas frequentes."
         />
       </Stack>
     </Center>
